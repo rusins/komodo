@@ -116,10 +116,10 @@ public class InputHandler implements InputProcessor {
 			setZoom(originalZoom);
 			break;
 		case 'q':
-			player.selectPrev();
+			player.incSelected(-1);
 			break;
 		case 'e':
-			player.selectNext();
+			player.incSelected(1);
 			break;
 		}
 		return true;
