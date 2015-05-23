@@ -57,8 +57,7 @@ public class GameScreen implements Screen{
 		gameWorld.setHeight(height);
 		joystick.setOriginX(width / 5);
 		joystick.setOriginY(height - width / 5);
-		renderer.setWidth(width);
-		renderer.setHeight(height);
+		renderer.resize(width, height);
 		inputHandler.setWidth(width);
 		inputHandler.setHeight(height);
 	}
