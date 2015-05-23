@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Komodo-core"/>
+	<classpathentry exported="true" kind="lib" path="/home/raitis/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.3.1/a2d556d1380aa4324a24497fdfa2ebec64d40251/gdx-backend-android-1.3.1.jar" sourcepath="/home/raitis/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.3.1/35270481c769f5dcf558de582a50f4a71ce63cb8/gdx-backend-android-1.3.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/raitis/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.3.1/18995f8b7b19118975722370818023c76a86fdf4/gdx-1.3.1.jar" sourcepath="/home/raitis/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.3.1/58319f183d9088a80c2f2ba9009f5aaa2ce08714/gdx-1.3.1-sources.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
