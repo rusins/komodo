@@ -18,7 +18,7 @@ public class GameScreen implements Screen{
 	private GameRenderer renderer;
 	private Joystick joystick;
 	private int zoom; //Default? pixels per block
-	private int width, height, midX, midY;
+	private int width, height;
 	private InputHandler inputHandler;
 	
 	private float runTime;
@@ -31,8 +31,8 @@ public class GameScreen implements Screen{
 		System.out.println("GameScreen attached");
 		width = Gdx.graphics.getWidth();
 		height = Gdx.graphics.getHeight();
-		midX = width / 2;
-		midY = height / 2;
+		int midX = width / 2;
+		int midY = height / 2;
 		
 		gameWorld = new GameWorld(width, height, midX, midY, zoom);
 		joystick = new Joystick(gameWorld.getPlayer(), zoom, width / 5, height - width / 5);
@@ -51,8 +51,8 @@ public class GameScreen implements Screen{
 	@Override
 	public void resize(int width, int height) {
 	    System.out.println("GameScreen - resizing");
-	    midX = Gdx.graphics.getWidth() / 2;
-		midY = Gdx.graphics.getHeight() / 2;
+	    width = Gdx.graphics.getWidth();
+		height = Gdx.graphics.getHeight();
 		gameWorld.setWidth(width);
 		gameWorld.setHeight(height);
 		joystick.setOriginX(width / 5);
